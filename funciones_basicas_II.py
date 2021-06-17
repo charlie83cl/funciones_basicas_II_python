@@ -31,8 +31,11 @@ print(imprRetor(a,b))
 #3. First Plus Length : crea una función que acepta una lista y devuelve la suma del primer valor de la lista más la longitud de la lista.
 #Ejemplo: first_plus_length ([1,2,3,4,5]) debería devolver 6 (primer valor: 1 + longitud: 5)
 
-#def first_plus_lenght():
-#    return(lista[0]+len(lista))
+def first_plus_lenght(lista):
+    return(lista[0]+len(lista))
+
+lista = [5,4,6,7,1]
+print(first_plus_lenght(lista))
 
 
 
@@ -71,6 +74,9 @@ def length_and_value(repetir,valor):
         lista.append(valor)
     return lista
 print(length_and_value(8,2))
+
+#ejercicios resueltos en clases funciones basicas II esta entero bueno pero super dificil de comprender a la primera
+#hay que darle varias repasadas para que se impregne en la corteza
 
 
 
