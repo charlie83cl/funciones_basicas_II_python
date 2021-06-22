@@ -26,7 +26,11 @@ print({min(lista)})
 
 
 
-#funcion07
+#7 Máximo : crea una función que toma una lista y devuelve el valor máximo en la matriz. 
+# Si la lista está vacía, haga que la función devuelva False.
+#Ejemplo: máximo ([37,2,1, -9]) debería devolver 37
+#Ejemplo: máximo ([]) debería devolver False
+
 def max(lista):
     if len(lista) == 0:
         return False
@@ -43,14 +47,8 @@ lista = [5,-7,-10,1,-88,100,1]
 print({max(lista)})
 
 
-#7 Máximo : crea una función que toma una lista y devuelve el valor máximo en la matriz. 
-# Si la lista está vacía, haga que la función devuelva False.
-#Ejemplo: máximo ([37,2,1, -9]) debería devolver 37
-#Ejemplo: máximo ([]) debería devolver False
-
-
-
 #8 Análisis final : crea una función que tome una lista y devuelva un diccionario que 
 # tenga la suma total, promedio, mínimo, máximo y longitud de la lista.
 #Ejemplo: ultimate_analysis ([37,2,1, -9]) debería devolver 
 # {'total': 31, 'promedio': 7.75, 'minimo': -9, 'maximo': 37, 'longitud': 4}
+
